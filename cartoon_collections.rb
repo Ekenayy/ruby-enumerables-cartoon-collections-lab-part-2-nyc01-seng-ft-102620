@@ -28,6 +28,6 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   valid_calls = valid_calls.join(" ")
   planeteer_calls.find do |element|
-    valid_calls.include? element
+    valid_calls.include?(element)
   end
 end
